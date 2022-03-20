@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  color: white;
+}
+
+.clicked {
+  color: white;
+  background-color: black;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.hidden {
+  display: none;
+}
+
+#clock {
+  margin: 30vh 0 0 0;
+  font-size: 10rem;
+}
+
+#greeting {
+  margin-top: 0;
+  font-size: 4rem;
+}
+
+#todo-list li {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 2rem;
+}
+
+#quote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
